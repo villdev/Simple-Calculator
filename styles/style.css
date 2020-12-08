@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 0; */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-header {
+  background-color: black;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+.title {
+  color: white;
+}
+
+.highlight {
+  color: orangered;
+}
+
+.content {
+  text-align: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  background-color: black;
+  margin: 130px auto;
+  /* justify-content: center; */
+  height: 615px;
+  width: 400px;
+  font-size: 50px;
+  border: solid rgb(88, 88, 88) 7px;
+}
+
+.row-1 {
+  color: white;
+  height: 100px;
+  /* text-align: end; */
+  text-align: right;
+  /* margin: solid 3px rgb(212, 208, 208); */
+  padding: 6px;
+  border-bottom: solid rgb(88, 88, 88) 7px;
+}
+.display {
+  font-size: 70px;
+}
+
+.row-2 {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex: 1; */
+  background-color: rgb(212, 208, 208);
+  height: 100px;
+  /* border: solid black 1px; */
+}
+
+.clear {
+  width: 50%;
+  /* align-items: center; */
+  text-align: center;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: orangered;
+}
+
+.back {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: orangered;
+}
+
+.divide {
+  width: 25%;
+  background-color: orange;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.row-3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 208, 208);
+  height: 100px;
+}
+
+.seven {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+.eight {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+.nine {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+
+.multiply {
+  width: 25%;
+  background-color: orange;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.row-4 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 208, 208);
+  height: 100px;
+}
+
+.four {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+.five {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+.six {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+
+.minus {
+  width: 25%;
+  background-color: orange;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.row-5 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 208, 208);
+  height: 100px;
+}
+
+.one {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+.two {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+.three {
+  width: 25%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+
+.plus {
+  width: 25%;
+  background-color: orange;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.row-6 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 208, 208);
+  height: 100px;
+}
+
+.zero {
+  width: 75%;
+  border: solid black 1px;
+  padding: 20px 0px;
+}
+
+.equal {
+  width: 25%;
+  background-color: orange;
+  border: solid black 1px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.hover-effect-rest:hover {
+  background-color: rgb(235, 226, 226);
+}
+.hover-effect-operators:hover {
+  background-color: rgb(252, 183, 56);
+}
+
+.hover-effect-rest:active {
+  background-color: rgb(172, 162, 162);
+}
+.hover-effect-operators:active {
+  background-color: rgb(221, 160, 45);
+}
+
+.hover-effect-operators,
+.hover-effect-rest {
+  cursor: pointer;
+}
+
+/*check down code */
+/* .border {
+  margin: solid black 1px;
+} */
